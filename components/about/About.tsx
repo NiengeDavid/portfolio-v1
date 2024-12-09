@@ -25,12 +25,12 @@ export const About: React.FC = () => {
                 <div>
                     <p>
                         {
-                            'Programming is both my profession and my hobby, which is why I truly enjoy my work as a developer. With over 14 years of experience, I have the skills to tackle a wide range of challenges, from building interactive web applications to leading development teams.'
+                            'Programming is both my profession and my hobby, which is why I truly enjoy my work as a developer. With over 3 years of experience, I have the skills to tackle a wide range of challenges, from building interactive web applications to leading development teams.'
                         }
                     </p>
                     <p>
                         {
-                            'Outside of coding, my hobbies are a big part of my life. I’m an amateur astronomer and have built a fully automated remote observatory that I can control from anywhere in the world. I also love traveling, especially hiking and exploring nature with my family. My children are a constant source of inspiration, motivating me both in life and in work.'
+                            'I am currently an undergrad student at Mewer International University Abuja majoring in Software Engineering. I volunteer at WOMOC (World Media Outreach Center) as a software engineer(remote) and previously, I worked at eHealth Africa and the presidency(FGNPC), both as a fullstack software engineer. Outside work, I spend my time gaming, taking long naps, and sharing algorithms/discoveries on Instagram.'
                         }
                     </p>
                 </div>

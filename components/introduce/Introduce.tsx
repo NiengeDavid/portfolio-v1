@@ -37,8 +37,8 @@ const findEarliestDate = (experience: ExperienceType[]): string | undefined => {
 }
 
 const divisor = 1000 * 60 * 60 * 24 * 365.2421897
-const birthTime = new Date('1989-09-09T05:15:00').getTime()
-const expTime = new Date(findEarliestDate(experience) ?? '2007-10-15T10:00:00').getTime()
+const birthTime = new Date('2001-11-07T05:15:00').getTime()
+const expTime = new Date(findEarliestDate(experience) ?? '2021-11-15T10:00:00').getTime()
 
 export const Introduce: React.FC = () => {
     const [myAge, setMyAge] = React.useState<string>('')
@@ -70,7 +70,7 @@ export const Introduce: React.FC = () => {
         },
         {
             title: 'Location',
-            value: 'California, USA'
+            value: 'Abuja, Nigeria'
         },
         {
             title: 'Updated',
@@ -82,22 +82,22 @@ export const Introduce: React.FC = () => {
         {
             icon: 'github',
             label: 'GitHub',
-            link: 'https://github.com/miksrv'
+            link: 'https://github.com/NiengeDavid'
         },
         {
             icon: 'telegram',
             label: 'Telegram',
-            link: 'https://t.me/miksoft'
+            link: 'https://t.me/Davidnienge'
         },
         {
             icon: 'facebook',
             label: 'Facebook',
-            link: 'https://facebook.com/miksoft.pro'
+            link: 'https://facebook.com/nienge.david'
         },
         {
             icon: 'linkedin',
             label: 'LinkedIn',
-            link: 'https://www.linkedin.com/in/mikcatsvill/'
+            link: 'https://www.linkedin.com/in/nienge-david-6b5508221/'
         }
     ]
 
@@ -115,7 +115,7 @@ export const Introduce: React.FC = () => {
                     src={avatarPic}
                     layout={'fill'}
                     objectFit={'cover'}
-                    alt={"Hi I'm - Misha - Picture of the author"}
+                    alt={"Hi I'm - David - Picture of the author"}
                 />
             </div>
             <div className={styles.infoContainer}>
@@ -123,7 +123,7 @@ export const Introduce: React.FC = () => {
                     <div className={styles.title}>
                         <h1>
                             {"Hi I'm - "}
-                            <span>{'Misha'}</span>
+                            <span>{'David'}</span>
                         </h1>
 
                         <div className={styles.links}>
@@ -140,7 +140,7 @@ export const Introduce: React.FC = () => {
                             ))}
                         </div>
                     </div>
-                    <h3 className={styles.subTitle}>{'Software Engineer, Astronomer and Dreamer'}</h3>
+                    <h3 className={styles.subTitle}>{'Software Engineer, Entrepreneur and Dreamer!'}</h3>
                 </div>
 
                 <ul className={styles.factsList}>
@@ -163,7 +163,7 @@ export const Introduce: React.FC = () => {
                     </p>
                     <p>
                         {
-                            'In my free time, you can often find me exploring the night skies with my homemade observatory or enjoying travel adventures with my family.'
+                            'In my free time, you can often find me gaming, taking long naps, and sharing algorithms/discoveries on Instagram.'
                         }
                     </p>
                 </div>

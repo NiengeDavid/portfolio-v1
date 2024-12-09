@@ -14,7 +14,7 @@ export const GithubActivity: React.FC = () => {
         <section className={styles.activitySection}>
             <h2 className={'pageTitle'}>{'Work activity'}</h2>
             <GitHubCalendar
-                username={'miksrv'}
+                username={'NiengeDavid'}
                 theme={explicitTheme}
             />
         </section>
