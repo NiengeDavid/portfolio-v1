@@ -4,6 +4,8 @@ export const iconNames = {
     linkedin: 'linkedin',
     web: 'web',
     facebook: 'facebook',
+    instagram: 'instagram',
+    X: 'X',
     left: 'left',
     right: 'right'
 } as const

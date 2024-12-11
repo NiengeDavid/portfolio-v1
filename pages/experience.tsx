@@ -15,12 +15,12 @@ const ProjectsPage: React.FC = () => (
                 images: [
                     {
                         height: 1333,
-                        url: 'https://miksoft.pro/avatar.jpg',
+                        url: 'https://davidnienge.com.ng/avatar.jpg',
                         width: 1000
                     }
                 ],
                 locale: 'en-US',
-                siteName: 'miksoft.pro'
+                siteName: 'davidnienge.com.ng'
             }}
         />
 
@@ -34,7 +34,7 @@ const ProjectsPage: React.FC = () => (
             <br />
             <p>
                 {
-                    'My work has spanned various industries, including media, fintech, and e-commerce, where I’ve been responsible for everything from developing new features to optimizing large-scale applications for performance and reliability.'
+                    'My work has spanned various industries, including media, health, e-learning, and e-commerce, where I’ve been responsible for everything from developing new features to optimizing large-scale applications for performance and reliability.'
                 }
             </p>
         </section>

@@ -21,7 +21,7 @@ export const data: SkillGroupType[] = [
                 level: 90
             },
             {
-                name: 'Redux',
+                name: 'TailwindCSS',
                 level: 86
             },
             {
@@ -35,11 +35,11 @@ export const data: SkillGroupType[] = [
         skills: [
             {
                 name: 'Node.js',
-                level: 70
+                level: 85
             },
             {
                 name: 'PHP',
-                level: 80
+                level: 40
             },
             {
                 name: 'Python',
@@ -52,18 +52,18 @@ export const data: SkillGroupType[] = [
         ]
     },
     {
-        group: 'Testing',
+        group: 'CMS',
         skills: [
             {
-                name: 'Playwright',
-                level: 70
+                name: 'Sanity',
+                level: 90
             },
             {
-                name: 'Jest',
+                name: 'Strappi',
                 level: 80
             },
             {
-                name: 'RTL',
+                name: 'Contentful',
                 level: 80
             }
         ]
@@ -81,7 +81,7 @@ export const data: SkillGroupType[] = [
             },
             {
                 name: 'Linux',
-                level: 90
+                level: 70
             }
         ]
     }

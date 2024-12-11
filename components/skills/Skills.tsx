@@ -13,14 +13,14 @@ const Skills: React.FC = () => (
                     key={`group-${i}`}
                     className={styles.skillGroup}
                 >
-                    <h3>{group.group}</h3> {/* Заголовок группы */}
+                    <h3>{group.group}</h3> {/* Title */}
                     <ul className={styles.skillList}>
                         {group.skills.map((skill, j) => (
                             <li key={`skill-${i}-${j}`}>
                                 <div className={styles.label}>
                                     <label>{skill.name}</label>
                                 </div>
-                                <Progress value={skill.level} /> {/* Компонент прогресса */}
+                                <Progress value={skill.level} /> {/* progress status */}
                             </li>
                         ))}
                     </ul>

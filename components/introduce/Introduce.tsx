@@ -7,8 +7,9 @@ import styles from './styles.module.sass'
 import Icon from '@/components/icon'
 import { IconTypes } from '@/components/icon/types'
 import { experience, ExperienceType } from '@/data/experience'
-import avatarPic from '@/public/avatar.jpg'
 import { update } from '@/update'
+
+const avatarPic = '/avatar.jpg'
 
 type FactType = {
     title?: string
@@ -85,9 +86,9 @@ export const Introduce: React.FC = () => {
             link: 'https://github.com/NiengeDavid'
         },
         {
-            icon: 'telegram',
-            label: 'Telegram',
-            link: 'https://t.me/Davidnienge'
+            icon: 'instagram',
+            label: 'Instagram',
+            link: 'https://www.instagram.com/nienge_david'
         },
         {
             icon: 'facebook',
@@ -98,6 +99,11 @@ export const Introduce: React.FC = () => {
             icon: 'linkedin',
             label: 'LinkedIn',
             link: 'https://www.linkedin.com/in/nienge-david-6b5508221/'
+        },
+        {
+            icon: 'X',
+            label: 'X',
+            link: 'https://twitter.com/niengedavid'
         }
     ]
 

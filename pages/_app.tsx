@@ -16,12 +16,12 @@ const App = ({ Component, pageProps }: AppProps) => (
             />
             <link
                 rel={'shortcut icon'}
-                href={'/favicon.png'}
+                href={'/favicon.ico'}
                 key={'shortcutIcon'}
             />
             <link
                 rel={'manifest'}
-                href={'/manifest.json'}
+                href={'/site.webmanifest'}
             />
         </Head>
 

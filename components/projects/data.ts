@@ -1,9 +1,9 @@
 import { StaticImageData } from 'next/image'
 
-import geometki from './images/geometki.jpg'
-import meteo from './images/meteostation.jpg'
-import space from './images/nearspace.jpg'
-import astro from './images/observatory.jpg'
+import dayspark from './images/dayspark.png'
+import euphoria from './images/euphoria.png'
+import project500 from './images/project500.png'
+import ajheadphones from './images/ajheadphones.png'
 
 type ProjectType = {
     link: string
@@ -14,31 +14,31 @@ type ProjectType = {
 
 export const data: ProjectType[] = [
     {
-        image: geometki,
+        image: dayspark,
         title: 'DaySpark 2.0',
-        link: 'https://geometki.com/',
+        link: 'https://dayspark.netlify.app/',
         description:
-            'This portal, built on a microservice architecture using Next.js, PHP, and MySQL, helps users discover and share interesting places. It features a user dashboard, map integration, and the ability to upload photos and comments. Users can contribute to existing places and engage with a gamified system of levels, experience points, and reputation, promoting an interactive community.'
+            'DaySpark is a social media web application built with React and integrated with Sanity CMS, it uses Google OAuth to authenticate users and create their accounts. It allows users to share spontaneous moments from their day with friends, fostering connections through shared experiences.'
     },
     {
-        image: astro,
+        image: ajheadphones,
         title: 'AJ Headphones - Ecommerce',
-        link: 'https://astro.miksoft.pro/',
+        link: 'https://ecommerce-one-pink.vercel.app/',
         description:
-            'A fully automated homemade observatory integrated with an online service. It uses Raspberry Pi, Arduino, and Python for remote control, automation, and image analysis. The web service includes user authentication, real-time images, observatory data, and a calendar for celestial events, combining hardware and software for home-based astronomical exploration.'
+            'A fully functional ecommerce store bult with Nextjs, Reactjs, Typescript and Sanity CMS, with payments handled by Stripe. The store sells quality headphones and speakers for developers and gamers. Im still yet to decide what I want to do with it.'
     },
     {
-        image: meteo,
+        image: euphoria,
         title: 'Euphoria',
-        link: 'https://meteo.miksoft.pro/',
+        link: 'https://theeuphoria.vercel.app/',
         description:
-            'An Arduino-based weather station that collects and uploads real-time data to a remote server. It features an API for accessing current and historical weather data, as well as forecasts. This station supports the observatory by providing environmental data, ensuring accurate weather monitoring for optimal operations.'
+            'Euphoria is a daily devotional from Christ Family Ministries, by Rev. Arome Tokula. The web application makes these devotional available to thousands of people daily. Built with Nextjs, Reactjs, Typescript, Saas and Sanity CMS, fully SEO hooked for visibility.'
     },
     {
-        image: space,
+        image: project500,
         title: 'Dyslexia Project500',
-        link: 'https://t.me/nearspace',
+        link: 'https://www.dyslexiaprojectafrica.com/',
         description:
-            'Focused on making astronomy accessible, this project shares engaging, science-based content via Telegram. It promotes space knowledge through articles, event updates, and visuals, making complex topics easy to understand. The goal is to inspire curiosity and contribute to the public’s appreciation for space and science.'
+            'A landing page for the Dyslexia project500, although pages have been adding up lately. It is a volunteer project I built for the team on the project. Built using Nextjs, Reactjs and Typescript, Emails and campaigns with Brevo.'
     }
 ]

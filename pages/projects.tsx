@@ -17,12 +17,12 @@ const ProjectsPage: React.FC = () => (
                 images: [
                     {
                         height: 1333,
-                        url: 'https://miksoft.pro/avatar.jpg',
+                        url: 'https://davidnienge.com.ng/avatar.jpg',
                         width: 1000
                     }
                 ],
                 locale: 'en-US',
-                siteName: 'miksoft.pro'
+                siteName: 'davidnienge.com.ng'
             }}
         />
 

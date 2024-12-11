@@ -19,5 +19,9 @@ export const menu: MenuItemType[] = [
     {
         label: 'Skills',
         url: '/skills'
+    },
+    {
+        label: 'Resume',
+        url: '/skills'
     }
 ]
