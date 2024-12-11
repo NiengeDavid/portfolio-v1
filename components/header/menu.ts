@@ -22,6 +22,6 @@ export const menu: MenuItemType[] = [
     },
     {
         label: 'Resume',
-        url: '/skills'
+        url: '/Nienge David Teryima - Internship CV Resume.pdf'
     }
 ]
