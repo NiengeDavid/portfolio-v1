@@ -25,7 +25,7 @@ export const Backend = {
     PostgreSQL: 'PostgreSQL',
     CodeIgniter: 'CodeIgniter',
    // Yii: 'Yii',
-    RestAPI: 'REST API',
+    RestAPI: 'REST API'
     //Delphi: 'Borland Delphi'
 } as const
 
@@ -45,7 +45,7 @@ export type DevOpsSkillsType = (typeof DevOps)[keyof typeof DevOps]
 
 export const Testing = {
     Playwright: 'Playwright',
-    RTL: 'React Testing Library',
+    RTL: 'React Testing Library'
    //Jest: 'Jest'
 } as const
 

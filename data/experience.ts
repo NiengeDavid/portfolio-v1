@@ -1,4 +1,4 @@
-import { Backend, CMS, DevOps, Frontend, SkillsType, Testing } from '@/data/skills'
+import { Backend, CMS, DevOps, Frontend, SkillsType } from '@/data/skills'
 
 export type RoleSkillsType = {
     area: string

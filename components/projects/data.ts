@@ -1,10 +1,9 @@
-import { StaticImageData } from 'next/image';
+import { StaticImageData } from 'next/image'
 
-import ajheadphones from './images/ajheadphones.png';
-import dayspark from './images/dayspark.png';
-import euphoria from './images/euphoria.png';
-import project500 from './images/project500.png';
-
+import ajheadphones from './images/ajheadphones.png'
+import dayspark from './images/dayspark.png'
+import euphoria from './images/euphoria.png'
+import project500 from './images/project500.png'
 
 type ProjectType = {
     link: string
