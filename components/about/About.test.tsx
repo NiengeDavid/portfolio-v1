@@ -13,7 +13,7 @@ jest.mock('next/image', () => ({
     }
 }))
 
-jest.mock('./photo.jpg', () => ({
+jest.mock('./photo.png', () => ({
     __esModule: true,
     default: 'mocked-photo.jpg'
 }))

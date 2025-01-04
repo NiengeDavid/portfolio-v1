@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import photo from './photo.jpg'
+import photo from './photo.png'
 import styles from './styles.module.sass'
 
 /**
