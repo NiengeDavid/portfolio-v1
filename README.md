@@ -4,36 +4,16 @@ This project provides a fully customizable, modern developer portfolio template 
 
 <!-- PROJECT TITLE -->
 <div align="center">
-  <img src="https://miksoft.pro/avatar.jpg" alt="Project Logo" width="150" height="200" />
+  <img src="https://davidnienge.com.ng/avatar.jpg" alt="Project Logo" width="150" height="200" />
   <h3>Create Your Personal Developer Portfolio</h3>
   <a href="CHANGELOG.md" target="_blank">Changelog</a>
   ·
-  <a href="https://miksoft.pro" target="_blank">Demo</a>
-  ·
-  <a href="https://github.com/miksrv/developer-portfolio-website/issues/new?assignees=miksrv&labels=bug&projects=&template=1-bug.yml&title=%5BBug%5D%3A+">Report Bug</a>
-  ·
-  <a href="https://github.com/miksrv/developer-portfolio-website/issues/new?assignees=miksrv&labels=enhancement&template=2-feature-request.yml&title=%5BFeature%5D%3A+">Request Feature</a>
-  ·
+  <a href="https://davidnienge.com.ng" target="_blank">Demo</a>
+  .
   <a href="#contact">Contact</a>
 </div>
 
 <br />
-
-<!-- PROJECT BADGES -->
-<div align="center">
-
-[![Contributors][contributors-badge]][contributors-url]
-[![Forks][forks-badge]][forks-url]
-[![Stargazers][stars-badge]][stars-url]
-[![Issues][issues-badge]][issues-url]
-[![MIT License][license-badge]][license-url]
-
-[![Checks](https://github.com/miksrv/nextjs-vcard-project/actions/workflows/checks.yml/badge.svg)](https://github.com/miksrv/nextjs-vcard-project/actions/workflows/checks.yml)
-[![Deployment](https://github.com/miksrv/nextjs-vcard-project/actions/workflows/deploy.yml/badge.svg)](https://github.com/miksrv/nextjs-vcard-project/actions/workflows/deploy.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=miksrv_developer-portfolio-website&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=miksrv_developer-portfolio-website)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=miksrv_developer-portfolio-website&metric=coverage)](https://sonarcloud.io/summary/new_code?id=miksrv_developer-portfolio-website)
-
-</div>
 
 ---
 
@@ -94,15 +74,15 @@ The Arduino Weather Station project leverages a wide range of technologies acros
 
 This project is a complete solution for building a high-quality developer portfolio website, perfect for showcasing your skills, projects, and experiences in a sleek and modern design. Built with React and Next.js, this template is optimized for performance and SEO, ensuring that your portfolio stands out not only in appearance but also in search engine visibility. It’s fully customizable, allowing you to adapt the design, structure, and content to match your personal branding or freelance work.
 
-![Personal website: Main Page](./public/main.jpg)
+![Personal website: Main Page](./public/main.png)
 
 Designed with developers in mind, the template features dedicated sections for displaying technical skills with animated progress bars, detailed project showcases, and an about section to introduce yourself to potential clients or employers. The layout is fully responsive, ensuring a seamless experience across devices, from desktop to mobile. Additionally, the use of smooth CSS animations adds a dynamic feel to the portfolio, enhancing user engagement without sacrificing speed or performance.
 
-![Personal website: Projects Page](./public/projects.jpg)
+![Personal website: Projects Page](./public/projects.png)
 
 Whether you’re looking to establish a strong online presence as a developer or need a professional portfolio to support your freelance career, this project offers the flexibility and functionality to create an impressive, personalized site. Easily deploy it to platforms like Vercel or host it on any provider supporting Next.js applications.
 
-![Personal website: Skills Page](./public/skills.jpg)
+![Personal website: Skills Page](./public/skills.png)
 
 Feel free to use this repository for any purpose related to the development of virtual business cards. I am always ready to discuss any questions related to the use of this repository and help you in its work.
 
@@ -114,10 +94,10 @@ Feel free to use this repository for any purpose related to the development of v
 
 1. **Install Prerequisites**: Ensure you have [NodeJS](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/getting-started/install) installed on your system.
 
-2. **Clone the Repository**: Clone [this repository](https://github.com/miksrv/developer-portfolio-website.git) to your local machine:
+2. **Clone the Repository**: Clone [this repository](https://github.com/NiengeDavid/portfolio-v1.git) to your local machine:
 
    ```bash
-   git clone https://github.com/miksrv/developer-portfolio-website.git
+   git clone https://github.com/NiengeDavid/portfolio-v1.git
    ```
 
 3. **Install Dependencies**: Navigate to the project directory and install all necessary dependencies:
@@ -202,7 +182,7 @@ We encourage contributions of all kinds, whether big or small. Your efforts help
 
 ### Contact
 
-Misha - [miksoft.pro](https://miksoft.pro)
+David - [davidnienge.com.ng](https://davidnienge.com.ng)
 
 <p align="right">
   (<a href="#top">Back to top</a>)
