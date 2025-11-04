@@ -38,7 +38,7 @@ const findEarliestDate = (experience: ExperienceType[]): string | undefined => {
 }
 
 const divisor = 1000 * 60 * 60 * 24 * 365.2421897
-const birthTime = new Date('2001-11-07T05:15:00').getTime()
+const birthTime = new Date('2000-11-07T05:15:00').getTime()
 const expTime = new Date(findEarliestDate(experience) ?? '2021-11-15T10:00:00').getTime()
 
 export const Introduce: React.FC = () => {
