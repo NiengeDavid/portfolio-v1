@@ -98,7 +98,7 @@ export const Introduce: React.FC = () => {
         {
             icon: 'linkedin',
             label: 'LinkedIn',
-            link: 'https://www.linkedin.com/in/nienge-david-6b5508221/'
+            link: 'https://www.linkedin.com/in/niengedavid'
         },
         {
             icon: 'X',

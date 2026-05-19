@@ -1,7 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-
-import photo from './photo.png'
 import styles from './styles.module.sass'
 
 /**
@@ -13,6 +11,9 @@ import styles from './styles.module.sass'
  *   <About />
  * )
  */
+
+const photo = '/assets/dp.png'
+
 export const About: React.FC = () => {
     return (
         <section className={styles.aboutSection}>
@@ -21,6 +22,9 @@ export const About: React.FC = () => {
                 <Image
                     src={photo}
                     alt={'Photo of me'}
+                    width={158}
+                    height={158}
+                    className={styles.img}
                 />
                 <div>
                     <p>
