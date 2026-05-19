@@ -24,7 +24,6 @@ export const About: React.FC = () => {
                     alt={'Photo of me'}
                     width={158}
                     height={158}
-                    className={styles.img}
                 />
                 <div>
                     <p>
