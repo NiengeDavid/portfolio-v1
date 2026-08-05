@@ -22,6 +22,6 @@ export const menu: MenuItemType[] = [
     },
     {
         label: 'Resume',
-        url: '/myResume.pdf'
+        url: '/DavidNiengeResume.pdf'
     }
 ]

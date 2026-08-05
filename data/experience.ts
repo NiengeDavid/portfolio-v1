@@ -1,4 +1,4 @@
-import { Backend, CMS, DevOps, Frontend, SkillsType } from '@/data/skills'
+import { Backend, CMS, DevOps, Frontend, SkillsType, Testing } from '@/data/skills'
 
 export type RoleSkillsType = {
     area: string
@@ -15,7 +15,7 @@ export type ExperienceType = {
 export const experience: ExperienceType[] = [
     {
         period: ['11/01/2021'],
-        role: 'Frontend Developer - WOMOC',
+        role: 'Software Engineer(FE) - WOMOC',
         duties: 'Developed scalable, modular components for the client applications using modern architectural patterns. Designed solutions for key functions such as client-server interactions, REST API integration, and service integrations. Implemented automatic UI tests (unit and integration) to enhance solution quality. Optimized application architecture, including authentication, logging, and data processing. Collaborated with the UI/UX team to enhance UI components and improve application usability.',
         skills: [
             {
@@ -36,6 +36,14 @@ export const experience: ExperienceType[] = [
             {
                 area: 'CI/CD & DevOps',
                 stack: [DevOps.Docker, DevOps.Git, DevOps.Jenkins, DevOps.Linux, DevOps.GitHubActions]
+            },
+            {
+                area: 'CMS',
+                stack: [CMS.Sanity, CMS.Strappi, CMS.Contentful]
+            },
+            {
+                area: 'Testing',
+                stack: [Testing.RTL, Testing.Jest, Testing.Playwright]
             }
         ]
     },
@@ -64,7 +72,7 @@ export const experience: ExperienceType[] = [
     },
     {
         period: ['05/01/2024', '12/01/2024'],
-        role: 'Software Engineer Intern - eHealth Africa',
+        role: 'Software Engineer - eHealth Africa',
         duties: 'Collaborated on Web application solutions for public health systems. Created a scalable productivity app for healtheir work experience using the pomodoro technique of task management. Worked with different teams from development to QA, DevOps, Programs, and Project Management and other cross-functional teams.',
         skills: [
             {
@@ -85,6 +93,55 @@ export const experience: ExperienceType[] = [
             {
                 area: 'CI/CD & DevOps',
                 stack: [DevOps.Git, DevOps.Jenkins, DevOps.Linux, DevOps.Docker]
+            },
+            {
+                area: 'CMS',
+                stack: [CMS.Odoo]
+            }
+        ]
+    },
+    {
+        period: ['12/01/2024'],
+        role: 'Lead Software Engineer - SyntaxLABS',
+        duties: 'Collaborated on Web application solutions for public health systems. Created a scalable productivity app for healtheir work experience using the pomodoro technique of task management. Worked with different teams from development to QA, DevOps, Programs, and Project Management and other cross-functional teams.',
+        skills: [
+            {
+                area: 'Frontend',
+                stack: [
+                    Frontend.JavaScript,
+                    Frontend.TypeScript,
+                    Frontend.React,
+                    Frontend.NextJS,
+                    Frontend.TailwindCSS,
+                    Frontend.Bootstrap,
+                    Frontend.jQuery,
+                    Frontend.SASS
+                ]
+            },
+            {
+                area: 'Backend',
+                stack: [
+                    Backend.RestAPI,
+                    Backend.NodeJS,
+                    Backend.Python,
+                    Backend.PostgreSQL,
+                    Backend.MySQL,
+                    Backend.RestAPI,
+                    Backend.CodeIgniter,
+                    Backend.PHP
+                ]
+            },
+            {
+                area: 'CI/CD & DevOps',
+                stack: [DevOps.Git, DevOps.Jenkins, DevOps.Linux, DevOps.Docker, DevOps.GitHubActions]
+            },
+            {
+                area: 'CMS',
+                stack: [CMS.WordPress, CMS.Sanity, CMS.Strappi, CMS.Contentful, CMS.Odoo]
+            },
+            {
+                area: 'Testing',
+                stack: [Testing.Jest, Testing.RTL, Testing.Playwright]
             }
         ]
     }

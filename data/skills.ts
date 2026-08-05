@@ -1,13 +1,13 @@
 export const Frontend = {
     TypeScript: 'TypeScript',
     JavaScript: 'JavaScript',
-    //Redux: 'Redux',
+    Redux: 'Redux',
     React: 'React',
     NextJS: 'Next.js',
     jQuery: 'jQuery',
     HTML: 'HTML',
     CSS: 'CSS',
-    //SASS: 'SASS',
+    SASS: 'SASS',
     Bootstrap: 'Bootstrap',
     //SemanticUI: 'Semantic UI',
     //Storybook: 'Storybook',
@@ -24,7 +24,7 @@ export const Backend = {
     MySQL: 'MySQL',
     PostgreSQL: 'PostgreSQL',
     CodeIgniter: 'CodeIgniter',
-   // Yii: 'Yii',
+    // Yii: 'Yii',
     RestAPI: 'REST API'
     //Delphi: 'Borland Delphi'
 } as const
@@ -45,8 +45,8 @@ export type DevOpsSkillsType = (typeof DevOps)[keyof typeof DevOps]
 
 export const Testing = {
     Playwright: 'Playwright',
-    RTL: 'React Testing Library'
-   //Jest: 'Jest'
+    RTL: 'React Testing Library',
+    Jest: 'Jest'
 } as const
 
 export type TestingSkillsType = (typeof Testing)[keyof typeof Testing]
@@ -55,7 +55,8 @@ export const CMS = {
     WordPress: 'WordPress',
     Sanity: 'Sanity',
     Strappi: 'Strappi',
-    Contentful: 'Contentful'
+    Contentful: 'Contentful',
+    Odoo: 'Odoo'
 } as const
 
 export type CMSSkillsType = (typeof CMS)[keyof typeof CMS]
