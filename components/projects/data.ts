@@ -37,7 +37,7 @@ export const data: ProjectType[] = [
     {
         image: project500,
         title: 'Dyslexia Project500',
-        link: 'https://www.dyslexiaprojectafrica.com/',
+        link: 'https://project500.vercel.app/',
         description:
             'A landing page for the Dyslexia project500, although pages have been adding up lately. It is a volunteer project I built for the team on the project. Built using Nextjs, Reactjs and Typescript, Emails and campaigns with Brevo.'
     }
