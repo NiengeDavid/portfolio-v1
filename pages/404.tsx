@@ -2,11 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 
-import styles from '@/styles/404.module.sass'
-
 import Icon from '@/components/icon'
 import { iconNames } from '@/components/icon/types'
 import StarField from '@/components/star-field'
+import styles from '@/styles/404.module.sass'
 
 const NotFoundPage: React.FC = () => (
     <>
