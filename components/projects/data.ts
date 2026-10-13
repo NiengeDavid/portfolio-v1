@@ -1,9 +1,9 @@
 import { StaticImageData } from 'next/image'
 
 import ajheadphones from './images/ajheadphones.png'
+import autoconsult from './images/autoconsult.png'
 import dayspark from './images/dayspark.png'
 import euphoria from './images/euphoria.png'
-import autoconsult from './images/autoconsult.png'
 
 type ProjectType = {
     link: string
