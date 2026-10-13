@@ -3,7 +3,7 @@ import { StaticImageData } from 'next/image'
 import ajheadphones from './images/ajheadphones.png'
 import dayspark from './images/dayspark.png'
 import euphoria from './images/euphoria.png'
-import project500 from './images/project500.png'
+import autoconsult from './images/autoconsult.png'
 
 type ProjectType = {
     link: string
@@ -35,10 +35,10 @@ export const data: ProjectType[] = [
             'Euphoria is a daily devotional from Christ Family Ministries, by Rev. Arome Tokula. The web application makes these devotional available to thousands of people daily. Built with Nextjs, Reactjs, Typescript, Saas and Sanity CMS, fully SEO hooked for visibility.'
     },
     {
-        image: project500,
-        title: 'Dyslexia Project500',
-        link: 'https://project500.vercel.app/',
+        image: autoconsult,
+        title: 'AutoConsult',
+        link: 'https://autoconsult.ng',
         description:
-            'A landing page for the Dyslexia project500, although pages have been adding up lately. It is a volunteer project I built for the team on the project. Built using Nextjs, Reactjs and Typescript, Emails and campaigns with Brevo.'
+            'AutoConsult (AJAC) is an automobile consulting company located in Abuja, Nigeria, with a vision of making life easy for every Automobile user, I dsigned and built their website to automate their processes and showcase their portfolio and media. Built using Nextjs, Reactjs, Typescript, and SanityCMS, Emails and campaigns with Brevo, Payments with Paystack, and fully SEO hooked for visibility.'
     }
 ]

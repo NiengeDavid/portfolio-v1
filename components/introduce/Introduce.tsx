@@ -71,7 +71,7 @@ export const Introduce: React.FC = () => {
         },
         {
             title: 'Location',
-            value: 'Abuja, Nigeria'
+            value: 'Ibadan, Nigeria'
         },
         {
             title: 'Updated',
